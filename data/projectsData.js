@@ -15,7 +15,7 @@ export const projectsData = [
 		title: 'Online Movie Download & Streaming Platform',
 		url: 'online-movie-download-streaming-platform',
 		category: 'Web Application',
-		img: '/images/web-project-2.jpg',
+		img: '/images/Screenshot1.png',
 		ProjectHeader: {
 			title: 'Online Movie Download & Streaming Platform',
 			publishDate: 'Jul 26, 2021',
