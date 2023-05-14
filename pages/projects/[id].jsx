@@ -35,6 +35,11 @@ function ProjectSingle(props) {
 				</div>
 			</div>
 
+			<p className="font-general-regular text-xl font-semibold text-secondary-dark dark:text-secondary-light mt-12">
+				Live
+			</p>
+			<a className='text-sm text-blue-500' target="_blank" href={props.project.ProjectLink}>{props.project.ProjectLink}</a>
+
 			{/* Gallery */}
 			<p className="font-general-regular text-lg font-semibold text-secondary-dark dark:text-secondary-light mt-12">
 				Screen Shots

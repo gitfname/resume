@@ -16,6 +16,7 @@ export const projectsData = [
 		url: 'online-movie-download-streaming-platform',
 		category: 'Web Application',
 		img: '/images/Screenshot1.png',
+		ProjectLink: "https://strapi-movie-web-app-with-cool-design.vercel.app/",
 		ProjectHeader: {
 			title: 'Online Movie Download & Streaming Platform',
 			publishDate: 'May 06, 2023',
@@ -106,6 +107,120 @@ export const projectsData = [
 					id: uuidv4(),
 					details:
 						'Overall, our movie download and streaming web application is designed to provide users with an enjoyable experience when it comes to watching their favorite movies online. With its modern UI design and powerful features, we believe that our app will be a hit among movie lovers everywhere.',
+				}
+			],
+			SocialSharingHeading: 'Share This',
+			// SocialSharing: [
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Twitter',
+			// 		icon: <FiTwitter />,
+			// 		url: 'https://twitter.com/realstoman',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Instagram',
+			// 		icon: <FiInstagram />,
+			// 		url: 'https://instagram.com/realstoman',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Facebook',
+			// 		icon: <FiFacebook />,
+			// 		url: 'https://facebook.com/',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'LinkedIn',
+			// 		icon: <FiLinkedin />,
+			// 		url: 'https://linkedin.com/',
+			// 	},
+			// 	{
+			// 		id: uuidv4(),
+			// 		name: 'Youtube',
+			// 		icon: <FiYoutube />,
+			// 		url: 'https://www.youtube.com/c/StomanStudio',
+			// 	},
+			// ],
+		},
+	},
+	{
+		status: "Complete",
+		id: 2,
+		link: "online-gaming-platform",
+		title: 'Online Game Download Platform',
+		url: 'online-gaming-platform',
+		category: 'Web Application',
+		img: '/images/gaming-web-app-bg.png',
+		ProjectLink: "https://nextjs13-gaming-web-app.vercel.app/",
+		ProjectHeader: {
+			title: 'Online Game Download Platform',
+			publishDate: 'May 06, 2023',
+			tags: 'UI / Frontend',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'Online Game Download Platform',
+				img: '/images/gaming-web-app-bg.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Online Game Download Platform',
+				img: '/images/gaming-aweb-app-img-1.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Online Game Download Platform',
+				img: '/images/gaming-web-app-img-2.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Company Ltd',
+				},
+				{
+					id: uuidv4(),
+					title: 'Services',
+					details: 'Web Development',
+				},
+				{
+					id: uuidv4(),
+					title: 'Website',
+					details: 'https://company.com',
+				},
+				{
+					id: uuidv4(),
+					title: 'Phone',
+					details: '555 8888 888',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'HTML',
+						'CSS',
+						'JavaScript',
+						'Nextjs',
+						"Swiper",
+						'TailwindCSS',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Project Description',
+			ProjectDetails: [
+				{
+					id: uuidv4(),
+					details:
+						'no description yet.',
 				}
 			],
 			SocialSharingHeading: 'Share This',

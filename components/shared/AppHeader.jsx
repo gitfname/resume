@@ -42,7 +42,7 @@ function MobileMenu({showHireMeModal}) {
 
 			<div
 				className={
-					`${showMenu&&"!translate-x-0"} translate-x-full transition-transform duration-300 fixed bg-white dark:bg-slate-700 top-0 right-0 w-5/12 h-screen z-[999] flex flex-col items-center pt-6`
+					`${showMenu&&"!translate-x-0"} translate-x-full transition-transform duration-300 fixed bg-white dark:bg-slate-700 top-0 right-0 w-5/12  h-screen z-[999] flex flex-col items-center pt-6`
 				}
 			>
 				<div className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2">
@@ -119,9 +119,9 @@ function AppHeader() {
 					className="sm:mx-auto"
 				>
 					{/* Header */}
-					<div className="z-10 mx-auto w-full px-10 block sm:flex sm:justify-between sm:items-center py-3 pt-5">
+					<div className="z-10 sm:px-10 mx-auto w-full block sm:flex sm:justify-between sm:items-center py-3 pt-5">
 						{/* Header menu links and small screen hamburger menu */}
-						<div className="flex justify-between items-center px-4 sm:px-0">
+						<div className="flex justify-between items-center px-6  sm:px-0">
 							{/* <div>
 								<Link href="/">
 									{activeTheme === 'dark' ? (
